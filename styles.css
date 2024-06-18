@@ -47,8 +47,12 @@
 
   #weather-wrapper {
     display: flex;
+    flex-direction: column;
+    place-items: center;
+    justify-content: space-between;
   }
   
   #weather-search {
     display: flex;
+    width: 50%;
   }
